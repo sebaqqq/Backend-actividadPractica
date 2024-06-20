@@ -1,6 +1,6 @@
-# BackEnd Wisely
+# BackEnd Prueba Técnica
 
-Este es el backend para la aplicación Wisely. Proporciona una API para gestionar tareas.
+Este es el backend para la prueba técnica. Proporciona una API para gestionar tareas.
 
 ## Instalación
 
@@ -32,8 +32,10 @@ Obtiene todas las tareas almacenadas en la base de datos.
 
 Crea una nueva tarea. Debes enviar un objeto JSON con los siguientes campos:
 
+- `id` (int): el id de la tarea.
 - `title` (string): el título de la tarea.
 - `description` (string): la descripción de la tarea.
+- `status` (boolean): el estado de la tarea.
 
 ### GET /api/tasks/:id
 
