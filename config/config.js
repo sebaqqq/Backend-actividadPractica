@@ -11,7 +11,7 @@ module.exports = {
     dialect: "mysql",
     logging: false,
   },
-  // Configuración de la base de datos
+  // Configuración de la base de datos para testing
   test: {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
