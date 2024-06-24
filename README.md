@@ -12,7 +12,7 @@ Este es el backend para la prueba técnica. Proporciona una API para gestionar t
 
 ## Configuración
 
-Antes de ejecutar el servidor, asegúrate de configurar la conexión a la base de datos. Abre el archivo `config/config.json` y modifica los valores de `username`, `password`, `database` y `host` según tu configuración.
+Antes de ejecutar el servidor, asegúrate de configurar la conexión a la base de datos. Abre el archivo `.env` y modifica los valores de `username`, `password`, `database` y `host` según tu configuración.
 
 ## Uso
 
